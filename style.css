@@ -1,0 +1,64 @@
+img{
+    height: 10vh;
+    width: auto;
+    margin: 1vh;
+}
+#logo{
+    height: 10vh;
+    font-size: 4vh;
+    margin-top: 1vh;
+    vertical-align: middle;
+    font-family: 'East Sea Dokdo', cursive;
+}
+#logo_2{
+    height: 10vh;
+    font-size: 6vh;
+    line-height: 10vh;
+    margin: 1vh;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.logo_area{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: auto auto 1fr;
+}
+.space{
+    height: 5vh;
+}
+button{
+    font-size: 3vh;
+    width: 13vw;
+    height: 5vh;
+    vertical-align: middle;
+    border-radius: 2vh;
+    border: 0.5vh green solid;
+    background-color: palegreen;
+    font-family: 'Yeon Sung', cursive;
+}
+.control{
+    display: grid;
+    height: 6vh;
+    grid-template-columns: 14vw 11vw auto auto 1fr auto auto;
+    column-gap: 0.5vw;
+    font-size: 3.5vh;
+    font-family: 'Yeon Sung', cursive;
+}
+.content{
+    display: grid;
+    grid-template-rows: 5vh auto auto auto auto auto-fit;
+    row-gap: 0.5vh;
+    font-size: 3.5vh;
+    font-family: 'Yeon Sung', cursive;
+}
+.ar{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.display{
+    border: blue solid;
+    margin-left: 1vw;
+    height: 1fr;
+}
+.space_2{
+    height: 48vh;
+}
