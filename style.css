@@ -39,6 +39,7 @@ button{
     display: grid;
     height: 6vh;
     grid-template-columns: 14vw 11vw auto auto 1fr auto auto;
+    text-align: center;
     column-gap: 0.5vw;
     font-size: 3.5vh;
     font-family: 'Yeon Sung', cursive;
@@ -48,6 +49,7 @@ button{
     grid-template-rows: 5vh auto auto auto auto auto-fit;
     row-gap: 0.5vh;
     font-size: 3.5vh;
+    text-align: center;
     font-family: 'Yeon Sung', cursive;
 }
 .ar{
